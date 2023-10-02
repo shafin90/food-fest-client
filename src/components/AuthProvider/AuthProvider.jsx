@@ -27,13 +27,27 @@ const AuthProvider = ({ children }) => {
 
     //GOOGLE AUTHENTICATION HANDLER FUNCTION======
     const handleGoogle = () => {
-        
+
         signInWithPopup(auth, provider)
             .then((result) => {
-                setUser(result.user)
-                toast("hurray!!!!!!")
+                // This gives you a Google Access Token. You can use it to access the Google API.
+                const credential = GoogleAuthProvider.credentialFromResult(result);
+                const token = credential.accessToken;
+                // The signed-in user info.
+                const user = result.user;
+                setUser(user)
+                // IdP data available using getAdditionalUserInfo(result)
+                // ...
             }).catch((error) => {
-                console.log("something wrong")
+                // Handle Errors here.
+                const errorCode = error.code;
+                const errorMessage = error.message;
+                // The email of the user's account used.
+                const email = error.customData.email;
+                // The AuthCredential type that was used.
+                const credential = GoogleAuthProvider.credentialFromError(error);
+                // ...
+                console.log('somethinw went wrong')
             });
     }
 
@@ -63,7 +77,7 @@ const AuthProvider = ({ children }) => {
             .then((userCredential) => {
                 const user = userCredential.user;
                 setUser(user)
-                
+
 
 
             })
@@ -104,7 +118,7 @@ const AuthProvider = ({ children }) => {
 
     return (
         <AuthContext.Provider value={sharingValue}>
-              <ToastContainer />
+            <ToastContainer />
             {children}
         </AuthContext.Provider>
 
