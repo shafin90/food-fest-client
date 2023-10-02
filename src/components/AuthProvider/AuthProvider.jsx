@@ -15,7 +15,7 @@ export const AuthContext = createContext();
 
 const AuthProvider = ({ children }) => {
     // DECLARING ALL STATE HERE=============
-    const [user, setUser] = useState([]);
+    const [user, setUser] = useState(null);
     const [chefID, setChefID] = useState('') //THIS IS USEFULL FOR PROTECTIVE ROUTE======
     const [isLoggedin, setIsLoggedIn] = useState(false);
 
@@ -94,10 +94,12 @@ const AuthProvider = ({ children }) => {
     // FUNCTION TO LOGOUT AN USER=============
     const logoutUser = () => {
         signOut(auth).then(() => {
-            setUser('');
+            // Sign-out successful.
+            setUser(null)
         }).catch((error) => {
-            console.log(error.message)
+            // An error happened.
         });
+
     }
 
 
