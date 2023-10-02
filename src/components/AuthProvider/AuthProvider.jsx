@@ -33,7 +33,7 @@ const AuthProvider = ({ children }) => {
                 setUser(result.user)
                 toast("hurray!!!!!!")
             }).catch((error) => {
-                console.log(error.message)
+                console.log("something wrong")
             });
     }
 
@@ -104,7 +104,7 @@ const AuthProvider = ({ children }) => {
 
     return (
         <AuthContext.Provider value={sharingValue}>
-            <ToastContainer/>
+              <ToastContainer />
             {children}
         </AuthContext.Provider>
 
