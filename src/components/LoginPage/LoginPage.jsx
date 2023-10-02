@@ -1,4 +1,4 @@
-import { Container,  Form, Button } from 'react-bootstrap';
+import { Container, Form, Button } from 'react-bootstrap';
 
 import { Link, useNavigate } from 'react-router-dom';
 import { useContext, useEffect, useState } from 'react';
@@ -11,7 +11,7 @@ import "aos/dist/aos.css";
 
 const LoginPage = () => {
   // PASSED INFORMATION THROUGH CONTEXT API======
-  const { handleGoogle, handleLogin, user, chefID} = useContext(AuthContext);
+  const { handleGoogle, handleLogin, user, chefID } = useContext(AuthContext);
 
 
 
@@ -29,7 +29,7 @@ const LoginPage = () => {
     // SENDING EMAIL AND PASSWORD TO AUTHPROVIDER COMPONENT FOR LOGIN USER=====
     handleLogin(email, password);
 
-   
+
 
     //NAVIGATE USER TO HOME PAGE IF USER IS LOGGED IN=======
     if (user) {
@@ -52,8 +52,8 @@ const LoginPage = () => {
 
   return (
     <Container fluid>
-      
-      
+
+
       <div data-aos="fade-up" data-aos-duration="1500" className="d-flex flex-column justify-content-center align-items-center vh-100">
 
         {/* FORM HEADING */}
@@ -88,11 +88,6 @@ const LoginPage = () => {
           {/* GOOGLE SIGN IN BUTTON */}
           <Button onClick={handleGoogle} variant="outline-danger" className="mr-2 me-2">
             Google Sign-in
-          </Button>
-
-          {/* GITHUB SIGN IN BUTTON */}
-          <Button variant="outline-dark">
-            GitHub Sign-in
           </Button>
         </div>
 
