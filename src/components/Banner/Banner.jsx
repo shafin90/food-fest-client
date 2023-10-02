@@ -61,7 +61,7 @@ const Banner = () => {
 
                         <Col>
                         
-                                <img data-aos="flip-left" data-aos-duration="1500" className="img-fluid" src="http://mughal.com.bd/admin/uploads/mughal_3.png" alt="" />
+                                <img data-aos="flip-left" data-aos-duration="1500" className="img-fluid" src="https://hotnchili.com/wp-content/uploads/2020/05/Fish-tikka-600x388.png" alt="" />
                             
                         </Col>
 
