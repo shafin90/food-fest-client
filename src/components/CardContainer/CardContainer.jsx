@@ -13,46 +13,13 @@ import CustomCard from '../CustomCard/CustomCard';
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-
-
-
-
-
-
-
-
-
 const CardContainer = () => {
     const ref = useRef(null);
     const { scrollXProgress } = useScroll({ container: ref });
-
-
-
     const [data, setData] = useState([]);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     useEffect(() => {
         AOS.init();
-
-
 
         fetch('https://food-fest-server-shafin90.vercel.app/all_info')
             .then(res => res.json())
@@ -78,41 +45,11 @@ const CardContainer = () => {
     }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     return (
         <Container className='chef'>
 
 
             {/* header of this section */}
-
-
             <div data-aos="flip-left" data-aos-duration="1000" className='card-heading mb-5'>
                 <svg id="progress" width="100" height="100" viewBox="0 0 100 100">
                     <circle cx="50" cy="50" r="30" pathLength="1" className="bg" />
@@ -131,13 +68,6 @@ const CardContainer = () => {
                 </h1>
 
             </div>
-
-
-
-
-
-
-
 
 
             {/* cards section */}

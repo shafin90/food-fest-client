@@ -136,7 +136,7 @@ const BangladeshiFoodItem = () => {
 
 
   return (
-    <Container className="my-5">
+    <Container className="my-5 py-5 ">
 
 
 
