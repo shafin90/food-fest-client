@@ -11,7 +11,7 @@ const ChefInterview = () => {
       
       <Row>
         <Col md={6}>
-          <Card>
+          <Card  style={{backgroundColor:'#95afc0'}}>
             <Card.Body>
               <Card.Title className=' text-center display-2  fw-bold  my-5 ' >Exclusive Chef Interview</Card.Title>
               <Card.Text>

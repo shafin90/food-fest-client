@@ -1,0 +1,438 @@
+{
+    "BangladeshiFoods": [
+      {
+        "FoodItem": "Biriyani",
+        "Ingredients": [
+          "Basmati rice",
+          "Chicken or mutton",
+          "Onions",
+          "Ghee",
+          "Yogurt",
+          "Spices"
+        ]
+      },
+      {
+        "FoodItem": "Khichuri",
+        "Ingredients": [
+          "Rice",
+          "Red lentils (masoor dal)",
+          "Onions",
+          "Ghee",
+          "Turmeric",
+          "Spices"
+        ]
+      },
+      {
+        "FoodItem": "Hilsha Fish Curry",
+        "Ingredients": [
+          "Hilsha fish",
+          "Mustard oil",
+          "Turmeric",
+          "Green chilies",
+          "Mustard seeds",
+          "Spices"
+        ]
+      },
+      {
+        "FoodItem": "Shorshe Ilish",
+        "Ingredients": [
+          "Hilsha fish",
+          "Mustard seeds",
+          "Mustard oil",
+          "Green chilies",
+          "Turmeric",
+          "Spices"
+        ]
+      },
+      {
+        "FoodItem": "Dhaka Biryani",
+        "Ingredients": [
+          "Kacchi biryani rice",
+          "Marinated chicken or mutton",
+          "Potatoes",
+          "Saffron",
+          "Ghee",
+          "Spices"
+        ]
+      },
+      {
+        "FoodItem": "Bhapa Pitha",
+        "Ingredients": [
+          "Rice flour",
+          "Jaggery",
+          "Coconut",
+          "Cardamom",
+          "Banana leaves"
+        ]
+      },
+      {
+        "FoodItem": "Rui Machher Jhol",
+        "Ingredients": [
+          "Rohu fish",
+          "Tomatoes",
+          "Mustard oil",
+          "Turmeric",
+          "Green chilies",
+          "Spices"
+        ]
+      },
+      {
+        "FoodItem": "Shutki",
+        "Ingredients": [
+          "Dried fish",
+          "Onions",
+          "Green chilies",
+          "Mustard oil",
+          "Spices"
+        ]
+      },
+      {
+        "FoodItem": "Mezban",
+        "Ingredients": [
+          "Goat meat",
+          "Onions",
+          "Ginger-garlic paste",
+          "Spices",
+          "Ghee",
+          "Yogurt"
+        ]
+      },
+      {
+        "FoodItem": "Chingri Malai Curry",
+        "Ingredients": [
+          "Prawns",
+          "Coconut milk",
+          "Turmeric",
+          "Green chilies",
+          "Mustard oil",
+          "Spices"
+        ]
+      },
+      {
+        "FoodItem": "Chitol Maach er Muitha",
+        "Ingredients": [
+          "Chitol fish",
+          "Rice flour",
+          "Onions",
+          "Green chilies",
+          "Mustard oil",
+          "Spices"
+        ]
+      },
+      {
+        "FoodItem": "Luchi",
+        "Ingredients": [
+          "All-purpose flour",
+          "Vegetable oil",
+          "Salt",
+          "Water"
+        ]
+      },
+      {
+        "FoodItem": "Beef Bhuna",
+        "Ingredients": [
+          "Beef",
+          "Onions",
+          "Tomatoes",
+          "Ginger-garlic paste",
+          "Spices",
+          "Mustard oil"
+        ]
+      },
+      {
+        "FoodItem": "Mutton Rezala",
+        "Ingredients": [
+          "Mutton",
+          "Yogurt",
+          "Ginger-garlic paste",
+          "Cream",
+          "Spices",
+          "Ghee"
+        ]
+      },
+      {
+        "FoodItem": "Fuska",
+        "Ingredients": [
+          "Semolina balls",
+          "Potatoes",
+          "Chickpeas",
+          "Tamarind chutney",
+          "Cilantro",
+          "Spices"
+        ]
+      },
+      {
+        "FoodItem": "Kacchi Biryani",
+        "Ingredients": [
+          "Kacchi biryani rice",
+          "Marinated mutton or beef",
+          "Potatoes",
+          "Saffron",
+          "Ghee",
+          "Spices"
+        ]
+      },
+      {
+        "FoodItem": "Chingri Bhorta",
+        "Ingredients": [
+          "Prawns",
+          "Green chilies",
+          "Onions",
+          "Mustard oil",
+          "Garlic",
+          "Cilantro"
+        ]
+      },
+      {
+        "FoodItem": "Bhorta",
+        "Ingredients": [
+          "Mashed vegetables (e.g., eggplant, spinach, pumpkin)",
+          "Onions",
+          "Green chilies",
+          "Mustard oil",
+          "Spices"
+        ]
+      },
+      {
+        "FoodItem": "Payesh",
+        "Ingredients": [
+          "Rice",
+          "Milk",
+          "Sugar",
+          "Cardamom",
+          "Nuts and raisins",
+          "Saffron"
+        ]
+      },
+      {
+        "FoodItem": "Jhalmuri",
+        "Ingredients": [
+          "Puffed rice",
+          "Mustard oil",
+          "Onions",
+          "Green chilies",
+          "Mustard seeds",
+          "Spices"
+        ]
+      },
+      {
+        "FoodItem": "Fuchka (Phuchka/Pani Puri)",
+        "Ingredients": [
+          "Semolina balls (puris)",
+          "Potatoes",
+          "Tamarind chutney",
+          "Spiced water",
+          "Chickpeas",
+          "Cilantro"
+        ]
+      },
+      {
+        "FoodItem": "Shingara",
+        "Ingredients": [
+          "All-purpose flour",
+          "Potatoes",
+          "Peas",
+          "Spices",
+          "Vegetable oil",
+          "Water"
+        ]
+      },
+      {
+        "FoodItem": "Bhorta of Hilsa Roe (Ilish Macher Dim er Bhorta)",
+        "Ingredients": [
+          "Hilsa fish roe",
+          "Onions",
+          "Green chilies",
+          "Mustard oil",
+          "Salt",
+          "Lemon juice"
+        ]
+      },
+      {
+        "FoodItem": "Kala Bhuna",
+        "Ingredients": [
+          "Black gram (kala chana)",
+          "Onions",
+          "Tomatoes",
+          "Spices",
+          "Mustard oil",
+          "Ghee"
+        ]
+      },
+      {
+        "FoodItem": "Borhani",
+        "Ingredients": [
+          "Yogurt",
+          "Ginger",
+          "Garlic",
+          "Chilies",
+          "Spices",
+          "Mint leaves"
+        ]
+      },
+      {
+        "FoodItem": "Beguni",
+        "Ingredients": [
+          "Eggplant slices",
+          "Chickpea flour",
+          "Turmeric",
+          "Spices",
+          "Water",
+          "Vegetable oil"
+        ]
+      },
+      {
+        "FoodItem": "Mango Chutney",
+        "Ingredients": [
+          "Green mangoes",
+          "Sugar",
+          "Ginger",
+          "Mustard seeds",
+          "Chilies",
+          "Mustard oil"
+        ]
+      },
+      {
+        "FoodItem": "Firni",
+        "Ingredients": [
+          "Rice flour",
+          "Milk",
+          "Sugar",
+          "Cardamom",
+          "Saffron",
+          "Nuts and raisins"
+        ]
+      },
+      {
+        "FoodItem": "Chapli Kebab",
+        "Ingredients": [
+          "Ground beef or mutton",
+          "Onions",
+          "Tomatoes",
+          "Green chilies",
+          "Spices",
+          "Egg"
+        ]
+      },
+      {
+        "FoodItem": "Malpoa",
+        "Ingredients": [
+          "Milk",
+          "Flour",
+          "Sugar",
+          "Cardamom",
+          "Ghee",
+          "Oil for frying"
+        ]
+      },
+      {
+        "FoodItem": "Dimer Korma",
+        "Ingredients": [
+          "Hard-boiled eggs",
+          "Onions",
+          "Tomatoes",
+          "Yogurt",
+          "Ginger-garlic paste",
+          "Spices"
+        ]
+      },
+      {
+        "FoodItem": "Muri Ghonto",
+        "Ingredients": [
+          "Fish head or fish pieces",
+          "Rice",
+          "Moong dal",
+          "Cauliflower",
+          "Spices",
+          "Ghee"
+        ]
+      },
+      {
+        "FoodItem": "Panta Ilish",
+        "Ingredients": [
+          "Fermented rice",
+          "Hilsha fish",
+          "Green chilies",
+          "Onions",
+          "Mustard oil",
+          "Spices"
+        ]
+      },
+      {
+        "FoodItem": "Labra",
+        "Ingredients": [
+          "Mixed vegetables (e.g., potatoes, eggplant, pumpkin)",
+          "Mustard seeds",
+          "Turmeric",
+          "Mustard oil",
+          "Spices"
+        ]
+      },
+      {
+        "FoodItem": "Patishapta",
+        "Ingredients": [
+          "Rice flour pancakes",
+          "Kheer (milk and sugar)",
+          "Coconut",
+          "Jaggery",
+          "Cardamom"
+        ]
+      },
+      {
+        "FoodItem": "Chitol Maacher Muitha",
+        "Ingredients": [
+          "Chitol fish",
+          "Rice flour",
+          "Ginger",
+          "Garlic",
+          "Spices",
+          "Mustard oil"
+        ]
+      },
+      {
+        "FoodItem": "Aloo Posto",
+        "Ingredients": [
+          "Potatoes",
+          "Poppy seeds",
+          "Green chilies",
+          "Mustard oil",
+          "Turmeric",
+          "Spices"
+        ]
+      },
+      {
+        "FoodItem": "Mutton Tehari",
+        "Ingredients": [
+          "Mutton",
+          "Basmati rice",
+          "Onions",
+          "Yogurt",
+          "Ghee",
+          "Spices"
+        ]
+      },
+      {
+        "FoodItem": "Chui Jhal",
+        "Ingredients": [
+          "Mullet fish",
+          "Tomatoes",
+          "Green chilies",
+          "Mustard oil",
+          "Spices",
+          "Cilantro"
+        ]
+      },
+      {
+        "FoodItem": "Haleem",
+        "Ingredients": [
+          "Wheat, barley, and lentils",
+          "Chicken or beef",
+          "Onions",
+          "Ginger-garlic paste",
+          "Spices",
+          "Ghee"
+        ]
+      }
+    ]
+  }
+  
