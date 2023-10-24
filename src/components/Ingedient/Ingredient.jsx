@@ -7,7 +7,7 @@ const Ingredient = () => {
     const [selectedFoodIngredients, setSelectedFoodIngredients] = useState([]);
 
     useEffect(() => {
-        fetch('../../../public/foodItem.json')
+        fetch('/foodItem.json')
             .then((res) => res.json())
             .then((data) => setFoodItems(data.BangladeshiFoods))
             .catch((error) => {
